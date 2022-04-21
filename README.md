@@ -17,7 +17,7 @@ Sections, at least in GitHub flavoured markdown, will have an anchor, so can be 
 
 ## No association or sponsorship
 
-This version of the document is not endorsed, associated with, or sponsored by NIST.
+This version of the document is not endorsed by, associated with, or sponsored by NIST.
 
 ## No warranty
 
