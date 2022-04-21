@@ -24,6 +24,8 @@ requirements for the organization’s software
 development infrastructures and processes, and
 maintain the requirements over time.
 
+*Examples*
+
 1. Define policies for securing software development infrastructures and
    their components, including development endpoints, throughout the SDLC and
    maintaining that security.
@@ -39,6 +41,8 @@ maintain the requirements over time.
 >  Identify and document all security
 requirements for organization-developed software to
 meet, and maintain the requirements over time.
+
+*Examples*
 
 1. Define policies that specify risk-based software architecture and
    design requirements, such as making code modular to facilitate code reuse and
@@ -73,6 +77,8 @@ who will provide commercial software components to
 the organization for reuse by the organization’s own
 software.
 
+*Examples*
+
 1. Define a core set of security requirements for software components,
    and include it in acquisition documents, software contracts, and other agreements
    with third parties.
@@ -102,6 +108,8 @@ existing roles as needed to encompass all parts of the
 SDLC. Periodically review and maintain the defined
 roles and responsibilities, updating them as needed.
 
+*Examples*
+
 1. Define SDLC-related roles and responsibilities for all members of the
    software development team.
 1. Integrate the security roles into the software development team.
@@ -126,6 +134,8 @@ development. Periodically review personnel proficiency
 and role-based training, and update the training as
 needed.
 
+*Examples*
+
 1. Document the desired outcomes of training for each role.
 1. Define the type of training or curriculum required to achieve the
    desired outcome for each role.
@@ -141,6 +151,8 @@ Provenance is “the chronology of the origin, development, ownership, location,
 >  Obtain upper management or authorizing
 official commitment to secure development, and
 convey that commitment to all with development related roles and responsibilities.
+
+*Examples*
 
 1. Appoint a single leader or leadership team to be responsible for the
    entire secure software development process, including being accountable for
@@ -178,6 +190,8 @@ should be included in each toolchain to mitigate
 identified risks, as well as how the toolchain
 components are to be integrated with each other.
 
+*Examples*
+
 1. Define categories of toolchains, and specify the mandatory tools or
    tool types to be used for each category.
 1. Identify security tools to integrate into the developer toolchain.
@@ -192,6 +206,8 @@ components are to be integrated with each other.
 #### PO.3.2
 >  Follow recommended security practices to
 deploy, operate, and maintain tools and toolchains.
+
+*Examples*
 
 1. Evaluate, select, and acquire tools, and assess the security of each
    tool.
@@ -215,6 +231,8 @@ deploy, operate, and maintain tools and toolchains.
 >  Configure tools to generate artifacts 6 of their
 support of secure software development practices as
 defined by the organization.
+
+*Examples*
 
 1. Use existing tooling (e.g., workflow tracking, issue tracking, value
    stream mapping) to create an audit trail of the secure development-related
@@ -241,6 +259,8 @@ during development.
 >  Define criteria for software security checks
 and track throughout the SDLC.
 
+*Examples*
+
 1. Ensure that the criteria adequately indicate how effectively security
    risk is being managed.
 1. Define key performance indicators (KPIs), key risk indicators (KRIs),
@@ -258,6 +278,8 @@ and track throughout the SDLC.
 >  Implement processes, mechanisms, etc. to
 gather and safeguard the necessary information in
 support of the criteria.
+
+*Examples*
 
 1. Use the toolchain to automatically gather information that informs
    security decision-making.
@@ -287,6 +309,8 @@ environments.
 #### PO.5.1
 >  Separate and protect each environment
 involved in software development.
+
+*Examples*
 
 1. Use multi-factor, risk-based authentication and conditional access for
    each environment.
@@ -321,6 +345,8 @@ involved in software development.
 (i.e., endpoints for software designers, developers,
 testers, builders, etc.) to perform development-related
 tasks using a risk-based approach.
+
+*Examples*
 
 1. Configure each development endpoint based on approved hardening
    guides, checklists, etc.; for example, enable FIPS-compliant encryption of all
@@ -365,6 +391,8 @@ based on the principle of least privilege so that only
 authorized personnel, tools, services, etc. have
 access.
 
+*Examples*
+
 1. Store all source code and configuration-as-code in a code repository,
    and restrict access to it based on the nature of the code. For example, opensource code intended for public access may need its integrity and availability
    protected; other code may also need its confidentiality protected.
@@ -390,6 +418,8 @@ is legitimate and has not been tampered with.
 >  Make software integrity verification information
 available to software acquirers.
 
+*Examples*
+
 1. Post cryptographic hashes for release files on a well-secured
    website.
 1. Use an established certificate authority for code signing so that
@@ -413,6 +443,8 @@ supporting data (e.g., integrity verification information,
 provenance data) to be retained for each software
 release.
 
+*Examples*
+
 1. Store the release files, associated images, etc. in repositories
    following the organization’s established policy. Allow read-only access to them by
    necessary personnel and no access by anyone else.
@@ -424,6 +456,8 @@ release.
 >  Collect, safeguard, maintain, and share
 provenance data for all components of each software
 release (e.g., in a software bill of materials [SBOM]).
+
+*Examples*
 
 1. Make the provenance data available to software acquirers in
    accordance with the organization’s policies, preferably using standards-based
@@ -461,6 +495,8 @@ efficiency.
 modeling, attack modeling, or attack surface mapping
 – to help assess the security risk for the software.
 
+*Examples*
+
 1. Train the development team (security champions, in particular) or
    collaborate with a risk modeling expert to create models and analyze how to use
    a risk-based approach to communicate the risks and determine how to address
@@ -476,6 +512,8 @@ modeling, attack modeling, or attack surface mapping
 #### PW.1.2
 >  Track and maintain the software’s security
 requirements, risks, and design decisions.
+
+*Examples*
 
 1. Record the response to each risk, including how mitigations are to be
    achieved and what the rationales are for any approved exceptions to the security
@@ -494,6 +532,8 @@ management, identity management, access control,
 and vulnerability management systems) instead of
 creating proprietary implementations of security
 features and services. [Formerly PW.4.3]
+
+*Examples*
 
 1. Maintain one or more software repositories of modules for supporting
    standardized security features and services.
@@ -521,6 +561,8 @@ processes instantiated in the toolchain review the
 software design to confirm and enforce that it meets all
 of the security requirements and satisfactorily
 addresses the identified risk information.
+
+*Examples*
 
 1. Review the software design to confirm that it addresses applicable
    security requirements.
@@ -568,6 +610,8 @@ components (e.g., software libraries, modules,
 middleware, frameworks) from commercial, opensource, and other third-party developers for use by the
 organization’s software.
 
+*Examples*
+
 1. Review and evaluate third-party software components in the context
    of their expected use. If a component is to be used in a substantially different way
    in the future, perform the review and evaluation again with that new context in
@@ -599,6 +643,8 @@ meet common internal software development needs
 that cannot be better met by third-party software
 components.
 
+*Examples*
+
 1. Follow organization-established security practices for secure
    software development when creating and maintaining the components.
 1. Determine secure configurations for software components, and make
@@ -619,6 +665,8 @@ Moved to [PW.1.3](#PW.1.3)
 and all other third-party software components comply
 with the requirements, as defined by the organization,
 throughout their life cycles.
+
+*Examples*
 
 1. Regularly check whether there are publicly known vulnerabilities in
    the software modules and services that vendors have not yet fixed.
@@ -652,6 +700,7 @@ vulnerability severity criteria.
 appropriate to the development languages and
 environment to meet the organization’s requirements.
 
+*Examples*
 
 1. Validate all inputs, and validate and properly encode all outputs.
 1. Avoid using unsafe functions and calls.
@@ -688,6 +737,8 @@ testing occurs.
 >  Use compiler, interpreter, and build tools that
 offer features to improve executable security.
 
+*Examples*
+
 1. Use up-to-date versions of compiler, interpreter, and build tools.
 1. Follow change management processes when deploying or updating
    compiler, interpreter, and build tools, and audit all unexpected changes to tools.
@@ -699,6 +750,8 @@ offer features to improve executable security.
 build tool features should be used and how each
 should be configured, then implement and use the
 approved configurations.
+
+*Examples*
 
 1. Enable compiler features that produce warnings for poorly secured
    code during the compilation process.
@@ -735,6 +788,8 @@ analysis (tools are used to find issues in code, either in
 a fully automated way or in conjunction with a person)
 should be used, as defined by the organization.
 
+*Examples*
+
 1. Follow the organization’s policies or guidelines for when code review
    should be performed and how it should be conducted. This may include thirdparty code and reusable code modules written in-house.
 1. Follow the organization’s policies or guidelines for when code
@@ -748,6 +803,8 @@ based on the organization’s secure coding standards,
 and record and triage all discovered issues and
 recommended remediations in the development
 team’s workflow or issue tracking system.
+
+*Examples*
 
 1. Perform peer review of code, and review any existing code review,
    analysis, or testing results as part of the peer review.
@@ -791,6 +848,8 @@ should be performed to find vulnerabilities not
 identified by previous reviews, analysis, or testing and,
 if so, which types of testing should be used.
 
+*Examples*
+
 1. Follow the organization’s policies or guidelines for when code testing
    should be performed and how it should be conducted (e.g., within a sandboxed
    environment). This may include third-party executable code and reusable
@@ -803,6 +862,8 @@ the testing, and document the results, including
 recording and triaging all discovered issues and
 recommended remediations in the development
 team’s workflow or issue tracking system.
+
+*Examples*
 
 1. Perform robust functional testing of security features.
 1. Integrate dynamic vulnerability testing into the project’s automated
@@ -840,6 +901,8 @@ are secure and do not weaken the security functions
 provided by the platform, network infrastructure, or
 services.
 
+*Examples*
+
 1. Conduct testing to ensure that the settings, including the default
    settings, are working as expected and are not inadvertently causing any security
    weaknesses, operational issues, or other problems.
@@ -848,6 +911,8 @@ services.
 >  Implement the default settings (or groups of
 default settings, if applicable), and document each
 setting for software administrators.
+
+*Examples*
 
 1. Verify that the approved configuration is in place for the software.
 1. Document each setting’s purpose, options, default value, security
@@ -879,7 +944,9 @@ users, and public sources on potential vulnerabilities in
 the software and third-party components that the
 software uses, and investigate all credible reports.
 
-1. Monitor vulnerability databases 9, security mailing lists, and other
+*Examples*
+
+1. Monitor vulnerability databases, security mailing lists, and other
    sources of vulnerability reports through manual or automated means.
 1. Use threat intelligence sources to better understand how
    vulnerabilities in general are being exploited.
@@ -892,6 +959,8 @@ software uses, and investigate all credible reports.
 code to identify or confirm the presence of previously
 undetected vulnerabilities.
 
+*Examples*
+
 1. Configure the toolchain to perform automated code analysis and
    testing on a regular or continuous basis for all supported releases.
 1. See PW.7 and PW.8.
@@ -903,6 +972,8 @@ undetected vulnerabilities.
 disclosure and remediation, and implement the roles,
 responsibilities, and processes needed to support that
 policy.
+
+*Examples*
 
 1. Establish a vulnerability disclosure program, and make it easy for
    security researchers to learn about your program and report possible
@@ -932,6 +1003,8 @@ attackers.
 information about risk to plan its remediation or other
 risk response.
 
+*Examples*
+
 1. Use existing issue tracking software to record each vulnerability.
 1. Perform risk calculations for each vulnerability based on estimates of
    its exploitability, the potential impact if exploited, and any other relevant
@@ -941,6 +1014,8 @@ risk response.
 #### RV.2.2
 >  Plan and implement risk responses for
 vulnerabilities.
+
+*Examples*
 
 1. Make a risk-based decision as to whether each vulnerability will be
    remediated or if the risk will be addressed through other means (e.g., risk
@@ -972,6 +1047,8 @@ vulnerabilities in the future.
 >  Analyze identified vulnerabilities to determine
 their root causes.
 
+*Examples*
+
 1. Record the root cause of discovered issues.
 1. Record lessons learned through root cause analysis in a wiki that
    developers can access and search.
@@ -980,6 +1057,8 @@ their root causes.
 >  Analyze the root causes over time to identify
 patterns, such as a particular secure coding practice
 not being followed consistently.
+
+*Examples*
 
 1. Record lessons learned through root cause analysis in a wiki that
    developers can access and search.
@@ -993,6 +1072,8 @@ not being followed consistently.
 to eradicate a class of vulnerabilities, and proactively
 fix them rather than waiting for external reports.
 
+*Examples*
+
 1. See PW.7 and PW.8.
 
 #### RV.3.4
@@ -1000,6 +1081,8 @@ fix them rather than waiting for external reports.
 appropriate to prevent (or reduce the likelihood of) the
 root cause recurring in updates to the software or in
 new software that is created.
+
+*Examples*
 
 1. Record lessons learned through root cause analysis in a wiki that
    developers can access and search.
