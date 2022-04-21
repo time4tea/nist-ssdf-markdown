@@ -2,20 +2,18 @@
 
 This is a version of the [NIST SSDF](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) but in Markdown,
 this is just so if you want to copy it into your own company Wiki for whatever reason,
-you can just copy the markdown here, and paste it into your wiki.
+you can just copy the markdown here, and paste it into your wiki, or you could just link to the markdown here in GitHub.
 
 This could be useful, if you wanted to make links to particular sections, which is hard to do in a PDF.
+
+## Links to sections
+
+Sections, at least in GitHub flavoured markdown, will have an anchor, so can be linked directly, for example: [nist-ssdf-practices.md#po11](nist-ssdf-practices.md#po11)
 
 ## Contents
 
 - Main Document [NIST.SP.800-218.md](NIST.SP.800-218.md)
 - Practices [nist-ssdf-practices.md](nist-ssdf-practices.md)
-
-## Links to sections
-
-Sections, at least in GitHub flavoured markdown, will have an anchor, so can be linked directly, for example:
-
-[PO.1.1](nist-ssdf-practices.md#po11)
 
 ## No association or sponsorship
 
