@@ -15,6 +15,17 @@ Sections, at least in GitHub flavoured markdown, will have an anchor, so can be 
 - Main Document [NIST.SP.800-218.md](NIST.SP.800-218.md)
 - Practices [nist-ssdf-practices.md](nist-ssdf-practices.md)
 
+## How to use
+
+View the raw page, copy it and paste it into your own company wiki, then you have an internal, linkable version.
+
+## Confluence
+
+If you are copying this into *Confluence* - you cannot copy and paste the `GitHub Raw` view directly into confluence, it will
+be rendered as `code`. Instead, paste it first into Notepad, then from notepad into confluence.
+
+Confluence link anchors have a slightly different form than on GitHub.
+
 ## No association or sponsorship
 
 This version of the document is not endorsed by, associated with, or sponsored by NIST.
