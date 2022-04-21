@@ -541,10 +541,10 @@ addresses the identified risk information.
 Security Requirements
 
 #### PW.3.1
-Moved to [PO.1.3](#PO.1.3)
+Moved to [PO.1.3](#po13)
 
 #### PW.3.2
-Moved to [PW.4.4](#PW.4.4)
+Moved to [PW.4.4](#pw44)
 
 ### PW.4
 
@@ -670,7 +670,7 @@ environment to meet the organization’s requirements.
    PW.7.
 
 #### PW.5.2
-Moved to [PW.5.1](#PW.5.1) as example
+Moved to [PW.5.1](#pw51) as example
 
 
 ## PW.6
